@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: cine-auth
+  # TODO: 接入 Redis / 数据源后在此补充连接配置
+
+# 与前端 vite 代理目标保持一致：前端默认请求 /api，由网关或代理转发到本服务
