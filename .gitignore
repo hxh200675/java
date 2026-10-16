@@ -1,0 +1,21 @@
+# 构建产物与依赖
+node_modules/
+dist/
+target/
+build/
+
+# 日志与运行时文件
+*.log
+*.log.*.gz
+log/
+uploads/*
+!uploads/.gitkeep
+
+# 编辑器 / IDE / 系统
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+Thumbs.db

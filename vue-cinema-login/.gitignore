@@ -1,0 +1,17 @@
+# 依赖与构建产物（每次重置都会清空，不纳入版本库）
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器 / 系统
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.iml
+.DS_Store
