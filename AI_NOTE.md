@@ -14,7 +14,8 @@
   - 后端：`springBootTest/`（Spring Boot，端口 8081，包名 `com.fenglin.springboottest`）
   - 前端：`vue-cinema-login/`（Vue3 + Vite，端口 5173，18 个源文件，最完整版本）
   - `backend/`：**另一个独立后端**（com.cine.auth，非重复项目，别混淆、别删）
-  - 根目录 `index.html/script.js/style.css`：独立静态页，与 vue 前端无关
+  - 根目录 `index.html/script.js/style.css`：独立静态页，与 vue 前端无关（2026-10-21 已移入 `legacy-static/`，双击其中 index.html 仍可用）
+  - `README.md`：面向人的目录结构说明（前后端划分、启动方式、注意事项），2026-10-21 新增
 - ⚠️ 已清理：曾经的嵌套副本 `java-main/java-main/`（41MB/961 文件）已于 2026-10-14 删除，**不要再去嵌套路径找东西**。曾经存在 `java-main.zip`（桌面）为早期归档。
 - 重置规律：每次开机 `node_modules/` 与 `target/` 会被清空；但 `.mvn/`、`pom.xml`、`src/**`、`vue 源码`、`mvnw.cmd`、本备忘、GBK 脚本都保留。
 - 本地账号：MySQL `root / 123456`；后端库 `cinema_db` 会自动创建。
